@@ -190,7 +190,7 @@ textarea {
 
     .caixa-mae {
         flex-direction: column;
-        
+        justify-content: flex-start;
     }
 
     .caixa-principal {
@@ -234,7 +234,7 @@ textarea {
         margin-left: 5px;
     }
 
-   .formulario-fale-conosco {
+   .mostrarform {
     left: 25vw;
    }
 
