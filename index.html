@@ -18,7 +18,7 @@
         <img src="./img/whatsapp.png" alt="link para o whatsapp">
     </a>
 
-    <div onclick="telainicial()" class="mascara-formulario"></div>
+    <div onclick="esconderform()" class="mascara-formulario"></div>
 
     <div class="header">
         <img src="./img/logo-header.png" alt="logo mario">
@@ -28,7 +28,7 @@
     </div>
 
     <div class="caixa-mae">
-        
+
         <div class="caixa-principal">
 
             <img src="./img/logo.png" alt="logo do mario bros" class="logo-mario">
@@ -43,7 +43,7 @@
                 os encanadores
                 mais famosos do Reino dos Cogumelos - Mario e Luigi.</p>
 
-            <button onclick="cliqueinobotao()" class="button-principal">Entre em Contato</button>
+            <button onclick="mostrarform()" class="button-principal">Entre em Contato</button>
 
         </div>
 
@@ -64,11 +64,13 @@
     </div>
 
 
-    <form class="formulario-fale-conosco">
-        <input placeholder="Seu nome">
-        <input placeholder="Seu telefone">
-        <textarea placeholder="Digite seu problema aqui..."></textarea>
-        <button class="button-formulario">Pedir Orçamento</button>
+    <form class="formulario-fale-conosco" action="https://formcarry.com/s/AQR9Ncq32Sc" method="POST"
+        enctype="multipart/form-data">
+
+        <input placeholder="Seu nome" type="text" name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+        <button class="button-formulario" type="submit">Pedir Orçamento</button>
     </form>
 
 
