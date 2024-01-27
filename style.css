@@ -178,3 +178,61 @@ textarea {
     background: linear-gradient(109deg, rgba(10,12,16,0.99) 15%, rgba(10,12,16,0.7) 50%, rgba(10,12,16,0.99) 85%);
     transition: visibility 1s ease-in-out;
 }
+
+
+@media(max-width: 1009px) {
+
+    p {
+        display: none;
+    }
+
+    
+
+    .caixa-mae {
+        flex-direction: column;
+        
+    }
+
+    .caixa-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-principal {
+        margin-top: 0;
+    }
+
+    .logo-mario-luigi {
+        width: 80vw;
+        height: auto;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .header a {
+        font-size: 13px;
+    }
+
+    .serviços {
+        width: 95px;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-left: 5px;
+    }
+
+   
+
+
+
+}
+   
