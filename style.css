@@ -217,6 +217,10 @@ textarea {
     .header a {
         font-size: 13px;
     }
+    
+    .header a:hover {
+        font-size: 13px;
+    }
 
     .serviços {
         width: 95px;
@@ -230,7 +234,9 @@ textarea {
         margin-left: 5px;
     }
 
-   
+   .formulario-fale-conosco {
+    left: 25vw;
+   }
 
 
 
