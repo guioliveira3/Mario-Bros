@@ -21,7 +21,7 @@
     font-size: 15px;
     font-weight: 5px;
     cursor: pointer;
-}
+  }
 
 .header a:hover {
  color: #c51111;
@@ -29,12 +29,15 @@
  transition: 0.5s color ease-in-out;
 }
 
+nav {
+    display: flex;
+    gap: 20px;
+}
+
 .caixa-mae {
     display: flex;
     height: 80vh;
-    width: 90vw;
     margin-top: 7vh;
-    margin-left: 5%;
     align-items: center;
     justify-content: space-around;
     
@@ -128,7 +131,6 @@ video {
     flex-direction: column;
     position: fixed;
     top: 50%;
-    transform: translateY(-50%);
     left: -300px;
     padding: 17px;
     gap: 12px;
@@ -187,10 +189,10 @@ textarea {
     }
 
     
-
     .caixa-mae {
         flex-direction: column;
         justify-content: flex-start;
+      
     }
 
     .caixa-principal {
@@ -206,6 +208,7 @@ textarea {
     .logo-mario-luigi {
         width: 80vw;
         height: auto;
+        margin-top: 30px
     }
 
     .header {
@@ -234,11 +237,4 @@ textarea {
         margin-left: 5px;
     }
 
-   .mostrarform {
-    left: 25vw;
-   }
-
-
-
-}
-   
+}    
