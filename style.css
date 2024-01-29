@@ -132,6 +132,7 @@ video {
     position: fixed;
     top: 50%;
     left: -300px;
+    transform: translateX(-50%);
     padding: 17px;
     gap: 12px;
     border-radius: 5px;
@@ -236,4 +237,5 @@ textarea {
         margin-left: 5px;
     }
 
+    
 }    
